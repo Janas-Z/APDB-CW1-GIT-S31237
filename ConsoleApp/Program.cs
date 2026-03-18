@@ -12,3 +12,5 @@ double average = StatisticsHelper.CalculateAverage(numbers);
 Console.WriteLine($"Średnia: {average}");
 int max = StatisticsHelper.CalculateMax(numbers);
 Console.WriteLine($"Maksimum: {max}");
+int min = StatisticsHelper.CalculateMin(numbers);
+Console.WriteLine($"Minimum: {min}");
