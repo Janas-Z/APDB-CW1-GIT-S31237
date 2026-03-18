@@ -22,4 +22,13 @@ public class StatisticsHelper
         }
         return max;
     }
+    public static int CalculateMin(int[] numbers)
+    {
+        int min = numbers[0];
+        foreach (var n in numbers)
+        {
+            if (n < min) min = n;
+        }
+        return min;
+    }
 }
