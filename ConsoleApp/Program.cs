@@ -10,3 +10,5 @@ if (numbers == null || numbers.Length == 0)
 }
 double average = StatisticsHelper.CalculateAverage(numbers);
 Console.WriteLine($"Średnia: {average}");
+int max = StatisticsHelper.CalculateMax(numbers);
+Console.WriteLine($"Maksimum: {max}");
