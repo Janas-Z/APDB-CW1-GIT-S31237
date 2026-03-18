@@ -8,3 +8,5 @@ if (numbers == null || numbers.Length == 0)
     Console.WriteLine("Błąd: Tablica nie zawiera danych!");
     return;
 }
+double average = StatisticsHelper.CalculateAverage(numbers);
+Console.WriteLine($"Średnia: {average}");
