@@ -1,6 +1,6 @@
 ﻿using ConsoleApp;
 
-int[] numbers = { 100,200,300 };
+int[] numbers = { 10,20,30 };
 Console.WriteLine("Aplikacja do statystyk uruchomiona.");
 StatisticsHelper.LogNumbers(numbers);
 if (numbers == null || numbers.Length == 0)
